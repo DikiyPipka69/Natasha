@@ -1,0 +1,51 @@
+# Специфично для Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Окружения Anaconda и виртуальные среды
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-bld/
+.conda/
+
+# Настройки VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Кэш библиотеки Natasha и загруженные модели (если скачиваются локально)
+.natasha/
+navec_*.tar
+slovnet_*.tar
+
+# Файлы отчетов (которые выгружает ваше приложение)
+*_report.txt
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
